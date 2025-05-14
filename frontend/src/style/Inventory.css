@@ -1,0 +1,114 @@
+/* Container utama inventory */
+.inventory-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+/* Judul halaman */
+.page-title {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Section Kelola Stok dan Ketersediaan Barang */
+.inventory-section {
+  background-color: white;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.section-title {
+  color: #3498db;
+  font-size: 1.8rem;
+  border-bottom: 3px solid #3498db;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Tabel Ketersediaan Barang */
+.availability-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.availability-table th {
+  background-color: #3498db;
+  color: white;
+  padding: 16px 20px;
+  text-align: left;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.availability-table td {
+  padding: 14px 20px;
+  border-bottom: 1px solid #f0f0f0;
+  color: #555;
+}
+
+.availability-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.availability-table tbody tr:hover {
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+/* Status Badges */
+.status-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-align: center;
+  min-width: 80px;
+}
+
+.status-aman {
+  background-color: #e6f7e6;
+  color: #2e7d32;
+}
+
+.status-restock {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status-kritis {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .inventory-page {
+    padding: 10px;
+  }
+  .section-title {
+    font-size: 1.5rem;
+  }
+  .availability-table th,
+  .availability-table td {
+    padding: 12px 10px;
+  }
+}
+
+
+.stock-actions button:last-child {
+  display: none;
+}
