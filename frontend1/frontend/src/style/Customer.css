@@ -1,0 +1,22 @@
+.customer-page {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .customer-page h1 {
+    color: #2c3e50;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .customer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  
+  @media (max-width: 1024px) {
+    .customer-container {
+      grid-template-columns: 1fr;
+    }
+  }
