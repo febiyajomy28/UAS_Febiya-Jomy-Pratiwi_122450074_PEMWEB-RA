@@ -72,7 +72,7 @@ Sistem ini memungkinkan pengelolaan:
 #### 1️⃣ Clone repositori
 
 ```bash
-git clone [repo-url]
+git clone https://github.com/febiyajomy28/UAS_Febiya-Jomy-Pratiwi_122450074_PEMWEB-RA.git
 cd backendd
 ```
 
