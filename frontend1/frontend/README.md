@@ -1,3 +1,34 @@
+## ✨ Fitur Utama
+
+### 🔹 Manajemen Menu
+- Tambah, edit, dan hapus item menu  
+- Kategorisasi menu (makanan, minuman, snack)  
+- Status ketersediaan menu  
+
+### 🔹 Manajemen Pelanggan
+- Penyimpanan data pelanggan (nama, kontak, alamat)  
+- Sistem poin pelanggan  
+- Klasifikasi pelanggan premium  
+
+### 🔹 Dashboard Analitik
+- Statistik jumlah menu dan pelanggan  
+- Visualisasi distribusi kategori menu  
+- Grafik distribusi poin pelanggan  
+- Daftar pelanggan dengan poin tertinggi  
+
+### 🔹 Halaman Informasi
+- Tentang sistem  
+- Informasi pengembang  
+
+---
+
+## 🛠 Teknologi yang Digunakan
+- **React.js** – Library JavaScript untuk membangun antarmuka pengguna  
+- **React Router** – Untuk navigasi antar halaman  
+- **Chart.js** – Untuk visualisasi data  
+- **Custom Hooks** – Untuk fetching data dari backend  
+- **CSS Modules** – Untuk styling komponen  
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
